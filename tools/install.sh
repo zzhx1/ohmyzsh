@@ -506,6 +506,7 @@ print_success() {
   printf '%s\n' "• Follow us on X: $(fmt_link @ohmyzsh https://x.com/ohmyzsh)"
   printf '%s\n' "• Join our Discord community: $(fmt_link "Discord server" https://discord.gg/ohmyzsh)"
   printf '%s\n' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "CommitGoods Shop" https://commitgoods.com/collections/oh-my-zsh)"
+  printf '%s\n' "• Customized by: $(fmt_link @zzhx1 https://github.com/zzhx1/ohmyzsh)"
   printf '%s\n' $FMT_RESET
 }
 
