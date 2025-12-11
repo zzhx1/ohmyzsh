@@ -1,7 +1,7 @@
 # tldr plugin
 
 This plugin adds a shortcut to insert tldr before the previous command.
-Heavily inspired from [Man plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/man).
+Heavily inspired from [Man plugin](https://github.com/zzhx1/ohmyzsh/tree/master/plugins/man).
 
 To use it, add `tldr` to the plugins array in your zshrc file:
 

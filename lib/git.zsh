@@ -140,8 +140,8 @@ function _omz_git_prompt_status() {
 
 # Use async version if setting is enabled, or unset but zsh version is at least 5.0.6.
 # This avoids async prompt issues caused by previous zsh versions:
-# - https://github.com/ohmyzsh/ohmyzsh/issues/12331
-# - https://github.com/ohmyzsh/ohmyzsh/issues/12360
+# - https://github.com/zzhx1/ohmyzsh/issues/12331
+# - https://github.com/zzhx1/ohmyzsh/issues/12360
 # TODO(2024-06-12): @mcornella remove workaround when CentOS 7 reaches EOL
 local _style
 if zstyle -t ':omz:alpha:lib:git' async-prompt \

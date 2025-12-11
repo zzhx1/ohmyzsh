@@ -77,7 +77,7 @@ function bgnotify_appid {
 
 function bgnotify_find_sway_appid {
   # output is "app_id,container_id", for example "Alacritty,1694"
-  # see example swaymsg output: https://github.com/ohmyzsh/ohmyzsh/files/13463939/output.json
+  # see example swaymsg output: https://github.com/zzhx1/ohmyzsh/files/13463939/output.json
   if (( ${+commands[jq]} )); then
     swaymsg -t get_tree | jq '.. | select(.type?) | select(.focused==true) | {app_id, id} | join(",")'
   else

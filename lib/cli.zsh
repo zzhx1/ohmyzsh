@@ -617,8 +617,8 @@ function _omz::pr::test {
     # Get the ohmyzsh git remote
     command git remote -v | while read remote url _; do
       case "$url" in
-      https://github.com/ohmyzsh/ohmyzsh(|.git)) found=1; break ;;
-      git@github.com:ohmyzsh/ohmyzsh(|.git)) found=1; break ;;
+      https://github.com/zzhx1/ohmyzsh(|.git)) found=1; break ;;
+      git@github.com:zzhx1/ohmyzsh(|.git)) found=1; break ;;
       esac
     done
 
@@ -634,7 +634,7 @@ function _omz::pr::test {
       curl -fsSL \
         -H "Accept: application/vnd.github+json" \
         -H "X-GitHub-Api-Version: 2022-11-28" \
-        "https://api.github.com/repos/ohmyzsh/ohmyzsh/pulls/$1"
+        "https://api.github.com/repos/zzhx1/ohmyzsh/pulls/$1"
     )
 
     if [[ $? -gt 0 || -z "$pr_json" ]]; then
@@ -892,7 +892,7 @@ function _omz::update {
   # Check if --unattended was passed
   [[ "$1" != --unattended ]] || {
     _omz::log error "the \`\e[2m--unattended\e[0m\` flag is no longer supported, use the \`\e[2mupgrade.sh\e[0m\` script instead."
-    _omz::log error "for more information see https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-update-oh-my-zsh"
+    _omz::log error "for more information see https://github.com/zzhx1/ohmyzsh/wiki/FAQ#how-do-i-update-oh-my-zsh"
     return 1
   }
 

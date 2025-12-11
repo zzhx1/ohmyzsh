@@ -20,7 +20,7 @@ function xc {
 
   # If Xcode is already opened in another Desk, we need this double call
   # with -g to open the project window in the current Desk and focus it.
-  # See https://github.com/ohmyzsh/ohmyzsh/issues/10384
+  # See https://github.com/zzhx1/ohmyzsh/issues/10384
   if command pgrep -q "^Xcode"; then
     open -g -a "$active_path" "${xcode_files[1]}"
   fi

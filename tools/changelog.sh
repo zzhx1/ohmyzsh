@@ -240,7 +240,7 @@ supports_hyperlinks() {
   fi
 
   # Konsole supports hyperlinks, but it's an opt-in setting that can't be detected
-  # https://github.com/ohmyzsh/ohmyzsh/issues/10964
+  # https://github.com/zzhx1/ohmyzsh/issues/10964
   # if [ -n "$KONSOLE_VERSION" ]; then
   #   return 0
   # fi
@@ -303,11 +303,11 @@ function display-release {
     text)
       local text="\e[33m$short_hash\e[0m"; # red
       if supports_hyperlinks; then
-        printf "\e]8;;%s\a%s\e]8;;\a" "https://github.com/ohmyzsh/ohmyzsh/commit/$hash" $text;
+        printf "\e]8;;%s\a%s\e]8;;\a" "https://github.com/zzhx1/ohmyzsh/commit/$hash" $text;
       else
         echo $text;
       fi ;;
-    md) printf '[`%s`](https://github.com/ohmyzsh/ohmyzsh/commit/%s)' "$short_hash" "$hash" ;;
+    md) printf '[`%s`](https://github.com/zzhx1/ohmyzsh/commit/%s)' "$short_hash" "$hash" ;;
     esac
   }
 
@@ -372,12 +372,12 @@ function display-release {
     # In text mode, highlight (#<issue>) and dim text between `backticks`
     text)
       if supports_hyperlinks; then
-        sed -E $'s|#([0-9]+)|\e]8;;https://github.com/ohmyzsh/ohmyzsh/issues/\\1\a\e[32m#\\1\e[0m\e]8;;\a|g;s|`([^`]+)`|`\e[2m\\1\e[0m`|g' <<< "$subject"
+        sed -E $'s|#([0-9]+)|\e]8;;https://github.com/zzhx1/ohmyzsh/issues/\\1\a\e[32m#\\1\e[0m\e]8;;\a|g;s|`([^`]+)`|`\e[2m\\1\e[0m`|g' <<< "$subject"
       else
         sed -E $'s|#([0-9]+)|\e[32m#\\1\e[0m|g;s|`([^`]+)`|`\e[2m\\1\e[0m`|g' <<< "$subject"
       fi ;;
     # In markdown mode, link to (#<issue>) issues
-    md) sed -E 's|#([0-9]+)|[#\1](https://github.com/ohmyzsh/ohmyzsh/issues/\1)|g' <<< "$subject" ;;
+    md) sed -E 's|#([0-9]+)|[#\1](https://github.com/zzhx1/ohmyzsh/issues/\1)|g' <<< "$subject" ;;
     esac
   }
 

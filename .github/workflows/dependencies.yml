@@ -8,7 +8,7 @@ jobs:
   check:
     name: Check for updates
     runs-on: ubuntu-latest
-    if: github.repository == 'ohmyzsh/ohmyzsh'
+    if: github.repository == 'zzhx1/ohmyzsh'
     permissions:
       contents: write # this is needed to push commits and branches
     steps:

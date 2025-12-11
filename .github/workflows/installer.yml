@@ -17,7 +17,7 @@ permissions:
 jobs:
   test:
     name: Test installer
-    if: github.repository == 'ohmyzsh/ohmyzsh'
+    if: github.repository == 'zzhx1/ohmyzsh'
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

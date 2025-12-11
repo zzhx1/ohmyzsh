@@ -7,7 +7,7 @@ body:
       value: |
         ## Self Check
         - **Make sure this bug only happens with Oh My Zsh enabled**.
-        - Look for similar errors in existing [GitHub Issues](https://github.com/ohmyzsh/ohmyzsh/issues?q=is%3Aissue) (open or closed).
+        - Look for similar errors in existing [GitHub Issues](https://github.com/zzhx1/ohmyzsh/issues?q=is%3Aissue) (open or closed).
         - Try reaching out on the [Discord server](https://discord.gg/ohmyzsh) for help.
   - type: textarea
     validations:

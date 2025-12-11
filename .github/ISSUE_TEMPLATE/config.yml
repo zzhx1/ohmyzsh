@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Support
-    url: https://github.com/ohmyzsh/ohmyzsh/discussions
+    url: https://github.com/zzhx1/ohmyzsh/discussions
     about: Ask the community for support
   - name: Get help on Discord
     url: https://discord.gg/ohmyzsh

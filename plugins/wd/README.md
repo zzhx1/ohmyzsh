@@ -10,7 +10,7 @@ Because `cd` seems inefficient when the folder is frequently visited or has a lo
 
 ## Setup
 
-### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+### [oh-my-zsh](https://github.com/zzhx1/ohmyzsh)
 
 `wd` comes bundled with oh-my-zsh!
 
@@ -193,7 +193,7 @@ wd ...
 ```
 
 This is a wrapper for the zsh's `dirs` function.  
-_You might need to add `setopt AUTO_PUSHD` to your `.zshrc` if you are not using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)._
+_You might need to add `setopt AUTO_PUSHD` to your `.zshrc` if you are not using [oh-my-zsh](https://github.com/zzhx1/ohmyzsh)._
 
 * Remove warp point:
 

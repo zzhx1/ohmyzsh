@@ -1,7 +1,7 @@
 # percol
 
 Provides some useful function to make [percol](https://github.com/mooz/percol) work with zsh history and
-the [jump plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jump), optionally.
+the [jump plugin](https://github.com/zzhx1/ohmyzsh/tree/master/plugins/jump), optionally.
 
 To use it, add `percol` to the plugins array in your zshrc:
 
@@ -13,7 +13,7 @@ plugins=(... percol)
 
 - `percol`: install with `pip install percol`.
 
-- (_Optional_) [`jump`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jump) plugin: needs to be
+- (_Optional_) [`jump`](https://github.com/zzhx1/ohmyzsh/tree/master/plugins/jump) plugin: needs to be
   enabled before the `percol` plugin.
 
 ## Usage

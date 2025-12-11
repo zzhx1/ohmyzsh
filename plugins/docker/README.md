@@ -33,7 +33,7 @@ file**, but be aware of the side effects:
 ### Use old-style completion
 
 If the current completion does not work well for you, you can enable legacy completion instead with the
-following setting. See https://github.com/ohmyzsh/ohmyzsh/issues/11789 for more information.
+following setting. See https://github.com/zzhx1/ohmyzsh/issues/11789 for more information.
 
 ```zsh
 zstyle ':omz:plugins:docker' legacy-completion yes

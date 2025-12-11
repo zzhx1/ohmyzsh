@@ -20,7 +20,7 @@ EOF
 
 # If your branch naming convention deviates, you can partially override this plugin function
 # to determine the jira issue key based on your formatting.
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#partially-overriding-an-existing-plugin
+# See https://github.com/zzhx1/ohmyzsh/wiki/Customization#partially-overriding-an-existing-plugin
 function jira_branch() {
   # Get name of the branch
   issue_arg=$(git rev-parse --abbrev-ref HEAD)

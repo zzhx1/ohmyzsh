@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Please see [the latest guidelines](https://github.com/ohmyzsh/ohmyzsh/blob/master/SECURITY.md) for instructions.
+Please see [the latest guidelines](https://github.com/zzhx1/ohmyzsh/blob/master/SECURITY.md) for instructions.
 
 ## Phases
 
@@ -11,7 +11,7 @@ Please see [the latest guidelines](https://github.com/ohmyzsh/ohmyzsh/blob/maste
 1. Is this a valid security vulnerability?
 
   - [ ] It affects our CI/CD or any of our repositories.
-    - [ ] For ohmyzsh/ohmyzsh, it affects the latest commit.
+    - [ ] For zzhx1/ohmyzsh, it affects the latest commit.
     - [ ] For others, it affects the latest commit on the default branch.
   - [ ] It affects a third-party dependency:
     - [ ] Zsh or git
@@ -32,7 +32,7 @@ Please see [the latest guidelines](https://github.com/ohmyzsh/ohmyzsh/blob/maste
   - [ ] Yes, we can mitigate the risk.
   - [ ] Yes, we can remove a vulnerable dependency.
   - [ ] Yes, we can apply a workaround.
-  - [ ] Yes, we can apply a patch to a vulnerable dependency ([example for CVE-2021-45444](https://github.com/ohmyzsh/ohmyzsh/blob/cb72d7dcbf08b435c7f8a6470802b207b2aa02c3/lib/vcs_info.zsh)).
+  - [ ] Yes, we can apply a patch to a vulnerable dependency ([example for CVE-2021-45444](https://github.com/zzhx1/ohmyzsh/blob/cb72d7dcbf08b435c7f8a6470802b207b2aa02c3/lib/vcs_info.zsh)).
   - [ ] No, the vulnerability is not actionable.
 
 4. What's the impact of the vulnerability?

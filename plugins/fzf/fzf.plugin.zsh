@@ -2,7 +2,7 @@ function fzf_setup_using_fzf() {
   (( ${+commands[fzf]} )) || return 1
 
   # we remove "fzf " prefix, this fixes really old fzf versions behaviour
-  # see https://github.com/ohmyzsh/ohmyzsh/issues/12387
+  # see https://github.com/zzhx1/ohmyzsh/issues/12387
   local fzf_ver=${"$(fzf --version)"#fzf }
 
   autoload -Uz is-at-least
