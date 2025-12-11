@@ -92,9 +92,9 @@ command-line with either `curl`, `wget` or another similar tool.
 
 | Method    | Command                                                                                           |
 | :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
-| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
-| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/zzhx1/ohmyzsh/master/tools/install.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/zzhx1/ohmyzsh/master/tools/install.sh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/zzhx1/ohmyzsh/master/tools/install.sh)"` |
 
 Alternatively, the installer is also mirrored outside GitHub. Using this URL instead may be required if you're
 in a country like China or India (for certain ISPs), that blocks `raw.githubusercontent.com`:
@@ -114,7 +114,7 @@ It's a good idea to inspect the install script from projects you don't yet know.
 downloading the install script first, looking through it so everything looks normal, then running it:
 
 ```sh
-wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+wget https://raw.githubusercontent.com/zzhx1/ohmyzsh/master/tools/install.sh
 sh install.sh
 ```
 
@@ -126,8 +126,8 @@ If the above URL times out or otherwise fails, you may have to substitute the UR
 ### Plugins
 
 Oh My Zsh comes with a shitload of plugins for you to take advantage of. You can take a look in the
-[plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) directory and/or the
-[wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) to see what's currently available.
+[plugins](https://github.com/zzhx1/ohmyzsh/tree/master/plugins) directory and/or the
+[wiki](https://github.com/zzhx1/ohmyzsh/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -165,7 +165,7 @@ adds any) and extra goodies that are included in that particular plugin.
 
 We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme-happy. We have over one
 hundred and fifty themes now bundled. Most of them have
-[screenshots](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) on the wiki (We are working on updating this!).
+[screenshots](https://github.com/zzhx1/ohmyzsh/wiki/Themes) on the wiki (We are working on updating this!).
 Check them out!
 
 #### Selecting A Theme
