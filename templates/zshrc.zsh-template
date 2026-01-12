@@ -29,9 +29,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/zzhx1/ohmyzsh/wiki/Themes
 
 # Randomly select a theme from a list of available zsh themes
-ZSH_THEMES=("robbyrussell" "zhann" "agnoster" "apple" )
+ZSH_THEMES=("robbyrussell" "zhann" "agnoster" "linuxonly" )
 ZSH_THEME=${ZSH_THEMES[$(( $RANDOM % ${#ZSH_THEMES[@]} + 1 ))]}
-ZSH_THEME="apple"
 
 
 # Set list of themes to pick from when loading at random
@@ -99,7 +98,6 @@ plugins=(
     git
     zsh-syntax-highlighting
     zsh-autosuggestions
-    Themes
     copybuffer
     web-search
     dirhistory
